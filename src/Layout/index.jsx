@@ -5,7 +5,8 @@ function index({ children }) {
 	return (
 		<div>
 			<Navbar />
-			{children}
+			<div className="bg-gray-200">{children}</div>
+
 			<Footer />
 		</div>
 	);
