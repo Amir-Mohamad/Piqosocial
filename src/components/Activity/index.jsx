@@ -6,7 +6,7 @@ export default function Activity() {
 	const [isLike, setIsLike] = useState(false);
 
 	return (
-		<div className="bg-white p-4 rounded-2xl w-80 text-xxl">
+		<div className="bg-white p-4 rounded-2xl w-80 text-xxl mt-20 ml-10">
 			<div className="flex justify-between border-b-2">
 				<p className="font-bold ">Activity</p>
 				<p className=" text-gray-600 items-center cursor-pointer">See all</p>

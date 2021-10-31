@@ -7,9 +7,9 @@ import Story from "./components/Story";
 function App() {
 	return (
 		<Layout>
-			<div className="grid gap-4 grid-cols-3 p-28">
+			<div className="grid gap-2 grid-cols-3">
 				<Activity />
-				<div className="flex flex-col">
+				<div className="">
 					<Story />
 					<Posts />
 				</div>
