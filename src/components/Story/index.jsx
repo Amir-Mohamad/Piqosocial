@@ -3,7 +3,7 @@ import stories from "../../constants/stories";
 
 export default function index() {
 	return (
-		<div className="flex bg-white mt-20 items-center justify-center rounded-2xl mb-10 pl-2">
+		<div className="flex bg-white mt-20 items-center justify-center rounded-2xl mb-10 pl-2 p-2">
 			{stories.map((story) => (
 				<div className="flex p-2 flex-col items-center">
 					<img
@@ -14,7 +14,7 @@ export default function index() {
 					/>
 					<p
 						classname="text-xs flex items-center justify-center"
-						style={{ fontSize: "0.9rem" }}
+						style={{ fontSize: "0.9rem", marginTop: "8px" }}
 					>
 						{story.name}
 					</p>
