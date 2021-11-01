@@ -1,9 +1,6 @@
-import {
-	AiOutlineMessage,
-	AiOutlineSearch,
-	AiOutlineSetting,
-} from "react-icons/ai";
+import { AiOutlineMessage, AiOutlineSearch } from "react-icons/ai";
 import messages from "./../../constants/messages";
+
 export default function index() {
 	return (
 		<div className="bg-white p-4 rounded-2xl text-xxl w-80 absolute right-0 mr-4 mt-20">
